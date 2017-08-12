@@ -13,6 +13,8 @@
               top="851"
               left="1849"
               armies="0"
+              topArmies="-30"
+              leftArmies="-50"
               player=""
             ></country>
             <country
@@ -20,6 +22,8 @@
               top="698"
               left="238"
               armies="0"
+              topArmies="-80"
+              leftArmies="0"
               player=""
             ></country>
             <country
@@ -27,6 +31,8 @@
               top="781"
               left="450"
               armies="0"
+              topArmies="-20"
+              leftArmies="0"
               player=""
             ></country>
             <country
@@ -34,6 +40,8 @@
               top="1497"
               left="922"
               armies="0"
+              topArmies="-50"
+              leftArmies="-50"
               player=""
             ></country>
             <country
@@ -41,6 +49,8 @@
               top="1326"
               left="1036"
               armies="0"
+              topArmies="-50"
+              leftArmies="-40"
               player=""
             ></country>
             <country
@@ -48,6 +58,8 @@
               top="844"
               left="1520"
               armies="0"
+              topArmies="-50"
+              leftArmies="-20"
               player=""
             ></country>
             <country
@@ -55,6 +67,8 @@
               top="908"
               left="2068"
               armies="0"
+              topArmies="-50"
+              leftArmies="-30"
               player=""
             ></country>
             <country
@@ -62,6 +76,8 @@
               top="1166"
               left="1616"
               armies="0"
+              topArmies="-50"
+              leftArmies="-30"
               player=""
             ></country>
             <country
@@ -69,6 +85,8 @@
               top="1392"
               left="2399"
               armies="0"
+              topArmies="-70"
+              leftArmies="-90"
               player=""
             ></country>
             <country
@@ -76,6 +94,8 @@
               top="981"
               left="713"
               armies="0"
+              topArmies="-60"
+              leftArmies="-60"
               player=""
             ></country>
             <country
@@ -83,6 +103,8 @@
               top="1064"
               left="1524"
               armies="0"
+              topArmies="-50"
+              leftArmies="-30"
               player=""
             ></country>
             <country
@@ -90,6 +112,8 @@
               top="824"
               left="1412"
               armies="0"
+              topArmies="-70"
+              leftArmies="-30"
               player=""
             ></country>
             <country
@@ -97,6 +121,8 @@
               top="509"
               left="725"
               armies="0"
+              topArmies="-40"
+              leftArmies="100"
               player=""
             ></country>
             <country
@@ -104,6 +130,8 @@
               top="988"
               left="1918"
               armies="0"
+              topArmies="-50"
+              leftArmies="-20"
               player=""
             ></country>
             <country
@@ -111,6 +139,8 @@
               top="1136"
               left="2160"
               armies="0"
+              topArmies="0"
+              leftArmies="0"
               player=""
             ></country>
             <country
@@ -118,6 +148,8 @@
               top="757"
               left="1314"
               armies="0"
+              topArmies="-100"
+              leftArmies="10"
               player=""
             ></country>
             <country
@@ -125,6 +157,8 @@
               top="550"
               left="2135"
               armies="0"
+              topArmies="-70"
+              leftArmies="-70"
               player=""
             ></country>
             <country
@@ -132,6 +166,8 @@
               top="889"
               left="2403"
               armies="0"
+              topArmies="20"
+              leftArmies="50"
               player=""
             ></country>
             <country
@@ -139,6 +175,8 @@
               top="621"
               left="2425"
               armies="0"
+              topArmies="-40"
+              leftArmies="-120"
               player=""
             ></country>
             <country
@@ -146,6 +184,8 @@
               top="1291"
               left="1565"
               armies="0"
+              topArmies="-10"
+              leftArmies="-90"
               player=""
             ></country>
             <country
@@ -153,6 +193,8 @@
               top="1406"
               left="1800"
               armies="0"
+              topArmies="0"
+              leftArmies="0"
               player=""
             ></country>
             <country
@@ -160,6 +202,8 @@
               top="1056"
               left="636"
               armies="0"
+              topArmies="-40"
+              leftArmies="-120"
               player=""
             ></country>
             <country
@@ -167,6 +211,8 @@
               top="1001"
               left="1675"
               armies="0"
+              topArmies="0"
+              leftArmies="0"
               player=""
             ></country>
             <country
@@ -174,6 +220,8 @@
               top="820"
               left="2167"
               armies="0"
+              topArmies="-80"
+              leftArmies="0"
               player=""
             ></country>
             <country
@@ -181,6 +229,8 @@
               top="1320"
               left="2428"
               armies="0"
+              topArmies="-90"
+              leftArmies="-40"
               player=""
             ></country>
             <country
@@ -188,6 +238,8 @@
               top="1027"
               left="1359"
               armies="0"
+              topArmies="0"
+              leftArmies="0"
               player=""
             ></country>
             <country
@@ -195,6 +247,8 @@
               top="569"
               left="428"
               armies="0"
+              topArmies="0"
+              leftArmies="0"
               player=""
             ></country>
             <country
@@ -202,6 +256,8 @@
               top="812"
               left="709"
               armies="0"
+              topArmies="-50"
+              leftArmies="-30"
               player=""
             ></country>
             <country
@@ -209,6 +265,8 @@
               top="1318"
               left="923"
               armies="0"
+              topArmies="0"
+              leftArmies="-60"
               player=""
             ></country>
             <country
@@ -216,6 +274,8 @@
               top="801"
               left="865"
               armies="0"
+              topArmies="-30"
+              leftArmies="-50"
               player=""
             ></country>
             <country
@@ -223,13 +283,17 @@
               top="563"
               left="1483"
               armies="0"
+              topArmies="-50"
+              leftArmies="-80"
               player=""
             ></country>
             <country
               country="siam"
               top="1075"
               left="2132"
-              armies="0"
+              armies="1000"
+              topArmies="-60"
+              leftArmies="-40"
               player=""
             ></country>
             <country
@@ -237,6 +301,8 @@
               top="614"
               left="2011"
               armies="0"
+              topArmies="-100"
+              leftArmies="-30"
               player=""
             ></country>
             <country
@@ -244,6 +310,8 @@
               top="1357"
               left="1573"
               armies="0"
+              topArmies="0"
+              leftArmies="-50"
               player=""
             ></country>
             <country
@@ -251,6 +319,8 @@
               top="908"
               left="1510"
               armies="0"
+              topArmies="-40"
+              leftArmies="0"
               player=""
             ></country>
             <country
@@ -258,6 +328,8 @@
               top="540"
               left="1650"
               armies="0"
+              topArmies="40"
+              leftArmies="-50"
               player=""
             ></country>
             <country
@@ -265,6 +337,8 @@
               top="668"
               left="1900"
               armies="0"
+              topArmies="-60"
+              leftArmies="-60"
               player=""
             ></country>
             <country
@@ -272,6 +346,8 @@
               top="742"
               left="2145"
               armies="0"
+              topArmies="-40"
+              leftArmies="-30"
               player=""
             ></country>
             <country
@@ -279,6 +355,8 @@
               top="1204"
               left="904"
               armies="0"
+              topArmies="-80"
+              leftArmies="-30"
               player=""
             ></country>
             <country
@@ -286,6 +364,8 @@
               top="1398"
               left="2303"
               armies="0"
+              topArmies="-20"
+              leftArmies="-40"
               player=""
             ></country>
             <country
@@ -293,6 +373,8 @@
               top="910"
               left="1421"
               armies="0"
+              topArmies="-30"
+              leftArmies="-120"
               player=""
             ></country>
             <country
@@ -300,6 +382,8 @@
               top="947"
               left="591"
               armies="0"
+              topArmies="-30"
+              leftArmies="-80"
               player=""
             ></country>
           </div>
@@ -312,8 +396,9 @@
 <script>
   import Country from './Country'
   import jquery from 'jquery'
+
   export default {
-    components: { Country },
+    components: {Country},
     data () {
       return {
         diff: window.outerHeight / window.outerWidth

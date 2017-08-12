@@ -1,7 +1,7 @@
 <template>
   <div style="position: absolute;" :style="{ top: top + 'px', left: left + 'px'}">
     <img :style="{ zIndex: zIndex }" :id="country" :src="image" class="country">
-    <div class="armies">
+    <div class="armies" :style="{ top: 'calc(49% + ' + topArmies + 'px)', left: 'calc(49% + ' + leftArmies + 'px)'}">
       {{armies}}
     </div>
   </div>
@@ -10,7 +10,7 @@
 <script>
   import jquery from 'jquery'
   export default {
-    props: ['country', 'top', 'left', 'armies', 'player'],
+    props: ['country', 'top', 'left', 'topArmies', 'leftArmies', 'armies', 'player'],
     data () {
       return {
         image: require('../assets/countries/' + this.country + '.png'),
@@ -57,9 +57,23 @@
 
 <style>
   .country {
-    z-index: 1;
+    cursor: pointer;
+    opacity: .5;
+    filter: drop-shadow(3px 3px 0 #fff) drop-shadow(-1px -1px 0 #fff);
   }
   .country.hover {
     opacity: 0;
+  }
+  .armies {
+    cursor: pointer;
+    color: #fff;
+    font-size: 2.7em;
+    position: absolute;
+    background: rgba(103, 137, 217, 0.73);
+    border-radius: 10%;
+    padding: .1em .5em .2em;
+    z-index: 1000;
+    text-shadow: 0.1em 0.1em #000;
+    font-weight: bold;
   }
 </style>
