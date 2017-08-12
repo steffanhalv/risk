@@ -1,5 +1,5 @@
 <template>
-  <div id="get-vw" style="position: absolute; margin: 0 25vmin; height: 100%; overflow: hidden; text-align: center;">
+  <div id="get-vw" style="position: absolute; height: 100%; overflow: hidden; text-align: center;">
     <div style="position: relative;">
       <div id="scale-me" style="display: inline-block; transform-origin: 0 0;">
         <img
@@ -316,13 +316,20 @@
     components: { Country },
     data () {
       return {
+        diff: window.outerHeight / window.outerWidth
       }
     },
     mounted () {
+      this.getWindowWidth()
+    },
+    created () {
       let scope = this
       jquery(window).resize(function () {
-        console.log('true')
-        scope.getWindowWidth()
+        let diffNew = window.outerHeight / window.outerWidth
+        if (scope.diff !== diffNew) {
+          scope.getWindowWidth()
+          scope.diff = diffNew
+        }
       })
       this.getWindowWidth()
     },
@@ -332,7 +339,10 @@
           jquery('#scale-me').css({
             zoom: (jquery('#get-vw').height() / jquery('#get-width').height())
           })
-        }, 100)
+          jquery('#get-vw').css({
+            marginLeft: ((jquery('#board').width() - jquery('#get-vw').width()) / 2) + 'px'
+          })
+        }, 500)
       }
     }
   }
