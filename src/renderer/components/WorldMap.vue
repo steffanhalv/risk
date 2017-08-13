@@ -12,7 +12,7 @@
               country="afghanistan"
               top="851"
               left="1849"
-              armies="0"
+              armies="500"
               topArmies="-30"
               leftArmies="-50"
               player=""
@@ -422,9 +422,10 @@
       getWindowWidth () {
         setTimeout(function () {
           jquery('#scale-me').css({
-            zoom: (jquery('#get-vw').height() / jquery('#get-width').height())
+            zoom: (jquery('#get-vw').height() / jquery('#get-width').height()) + 0.08
           })
           jquery('#get-vw').css({
+            marginTop: '-150px',
             marginLeft: ((jquery('#board').width() - jquery('#get-vw').width()) / 2) + 'px'
           })
         }, 500)

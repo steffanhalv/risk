@@ -2,7 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e417d8e-ac92-41e6-a79d-cb1df43bc2f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/renderer/assets/bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/bg.jpg" afterPath="$PROJECT_DIR$/src/renderer/assets/bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/afghanistan.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/afghanistan.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/alaska.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/alaska.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/alberta.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/alberta.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/argentina.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/argentina.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/brazile.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/brazile.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/central-europe.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/central-europe.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/china.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/china.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/east-africa.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/east-africa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/east-australia.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/east-australia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/eastern-usa.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/eastern-usa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/egypt.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/egypt.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/great-britany.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/great-britany.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/greenland.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/greenland.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/india.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/india.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/indonesia.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/indonesia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/island.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/island.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/jakutzka.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/jakutzka.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/japan.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/japan.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/kamchatka.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/kamchatka.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/kongo.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/kongo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/madagascar.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/madagascar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/mexico.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/mexico.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/middle-east.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/middle-east.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/mongolia.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/mongolia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/new-guinea.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/new-guinea.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/north-africa.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/north-africa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/northwest-teritory.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/northwest-teritory.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/ontario.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/ontario.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/peru.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/peru.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/quebec.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/quebec.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/scandinavia.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/scandinavia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/siam.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/siam.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/siberia.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/siberia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/south-africa.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/south-africa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/south-europe.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/south-europe.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/ucraine.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/ucraine.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/ural.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/ural.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/utah.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/utah.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/venezuela.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/venezuela.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/west-australia.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/west-australia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/west-europe.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/west-europe.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/western-usa.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/western-usa.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/App.vue" afterPath="$PROJECT_DIR$/src/renderer/App.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/components/Board.vue" afterPath="$PROJECT_DIR$/src/renderer/components/Board.vue" />
@@ -42,10 +84,11 @@
       <file leaf-file-name="Board.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/renderer/components/Board.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            <state relative-caret-position="576">
+              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,15 +97,15 @@
       <file leaf-file-name="WorldMap.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/renderer/components/WorldMap.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="293" column="25" lean-forward="false" selection-start-line="293" selection-start-column="25" selection-end-line="293" selection-end-column="25" />
+            <state relative-caret-position="303">
+              <caret line="424" column="85" lean-forward="false" selection-start-line="424" selection-start-column="85" selection-end-line="424" selection-end-column="85" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="e#10550#10581#0" expanded="true" />
+                <element signature="e#10552#10583#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,8 +114,8 @@
       <file leaf-file-name="Country.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/renderer/components/Country.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="73" column="22" lean-forward="false" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+            <state relative-caret-position="595">
+              <caret line="103" column="22" lean-forward="false" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
@@ -103,8 +146,8 @@
       <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/renderer/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="881">
-              <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            <state relative-caret-position="384">
+              <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -154,7 +197,14 @@
       <find>jakut</find>
       <find>scope</find>
       <find>siam</find>
+      <find>addCla</find>
+      <find>afghani</find>
+      <find>offse</find>
+      <find>zoom</find>
     </findStrings>
+    <replaceStrings>
+      <replace>jquery</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>C:\Users\steff\OneDrive\Dokumenter\risk\src\renderer\components</dir>
     </dirStrings>
@@ -173,9 +223,9 @@
         <option value="$PROJECT_DIR$/src/logic/risk.js" />
         <option value="$PROJECT_DIR$/src/renderer/router/index.js" />
         <option value="$PROJECT_DIR$/src/renderer/components/Map.vue" />
-        <option value="$PROJECT_DIR$/src/renderer/components/Board.vue" />
-        <option value="$PROJECT_DIR$/src/renderer/App.vue" />
         <option value="$PROJECT_DIR$/src/renderer/components/WorldMap.vue" />
+        <option value="$PROJECT_DIR$/src/renderer/App.vue" />
+        <option value="$PROJECT_DIR$/src/renderer/components/Board.vue" />
         <option value="$PROJECT_DIR$/src/renderer/components/Country.vue" />
       </list>
     </option>
@@ -202,9 +252,9 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-14" />
-    <option name="width" value="1586" />
+    <option name="width" value="2586" />
     <option name="height" value="1738" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -225,6 +275,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -243,13 +294,6 @@
               <item name="risk" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="renderer" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="risk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="risk" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="renderer" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="risk" type="b2602c69:ProjectViewProjectNode" />
@@ -282,7 +326,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,6 +336,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\steff\OneDrive\Dokumenter\risk\src\renderer\assets\countries" />
       <recent name="C:\Users\steff\OneDrive\Dokumenter\risk\src\renderer\assets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -373,34 +417,35 @@
       <workItem from="1501781906937" duration="34000" />
       <workItem from="1501782020441" duration="708000" />
       <workItem from="1501956838852" duration="9444000" />
-      <workItem from="1502486337532" duration="25199000" />
+      <workItem from="1502486337532" duration="27691000" />
+      <workItem from="1502577912914" duration="4898000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48308000" />
+    <option name="totallyTimeSpent" value="55698000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-14" y="0" width="1586" height="1738" extended-state="0" />
+    <frame x="-16" y="-16" width="3232" height="1756" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35832188" sideWeight="0.49253732" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16806452" sideWeight="0.4889908" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21492128" sideWeight="0.5012903" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25393566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35832188" sideWeight="0.5074627" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25710326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16806452" sideWeight="0.51100916" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21560575" sideWeight="0.49870968" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -465,7 +510,7 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#10550#10581#0" expanded="true" />
+            <element signature="e#10552#10583#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -483,7 +528,8 @@
         <state relative-caret-position="144">
           <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -556,7 +602,7 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#10550#10581#0" expanded="true" />
+            <element signature="e#10552#10583#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -574,7 +620,8 @@
         <state relative-caret-position="144">
           <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -647,7 +694,7 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#10550#10581#0" expanded="true" />
+            <element signature="e#10552#10583#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -665,7 +712,8 @@
         <state relative-caret-position="144">
           <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -738,7 +786,7 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#10550#10581#0" expanded="true" />
+            <element signature="e#10552#10583#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -828,41 +876,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="881">
-          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/components/Board.vue">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/components/WorldMap.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="293" column="25" lean-forward="false" selection-start-line="293" selection-start-column="25" selection-end-line="293" selection-end-column="25" />
+        <state relative-caret-position="303">
+          <caret line="424" column="85" lean-forward="false" selection-start-line="424" selection-start-column="85" selection-end-line="424" selection-end-column="85" />
           <folding>
             <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#10550#10581#0" expanded="true" />
+            <element signature="e#10552#10583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/Board.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/components/Country.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="73" column="22" lean-forward="false" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+        <state relative-caret-position="595">
+          <caret line="103" column="22" lean-forward="false" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>

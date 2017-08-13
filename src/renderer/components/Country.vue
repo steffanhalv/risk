@@ -1,9 +1,9 @@
 <template>
-  <div style="position: absolute;" :style="{ top: top + 'px', left: left + 'px'}">
-    <img :style="{ zIndex: zIndex }" :id="country" :src="image" class="country">
+  <div class="country-container" style="position: absolute;" :style="{ top: top + 'px', left: left + 'px'}">
     <div class="armies" :style="{ top: 'calc(49% + ' + topArmies + 'px)', left: 'calc(49% + ' + leftArmies + 'px)'}">
       {{armies}}
     </div>
+    <img :style="{ zIndex: zIndex }" :id="country" :src="image" class="country">
   </div>
 </template>
 
@@ -22,6 +22,27 @@
       setTimeout(function () {
         scope.hover()
       }, 500)
+      jquery('img[src$=".svg"]').each(function () {
+        let img = jquery(this)
+        let imgURL = img.attr('src')
+        let attributes = img.prop('attributes')
+
+        jquery.get(imgURL, function (data) {
+          // Get the SVG tag, ignore the rest
+          let svg = jquery(data).find('svg')
+
+          // Remove any invalid XML tags
+          svg = svg.removeAttr('xmlns:a')
+
+          // Loop through IMG attributes and apply on SVG
+          jquery.each(attributes, function () {
+            svg.attr(this.name, this.value)
+          })
+
+          // Replace IMG with SVG
+          img.replaceWith(svg)
+        }, 'xml')
+      })
     },
     methods: {
       hover () {
@@ -30,8 +51,10 @@
         jquery('body').bind('mousemove', function (event) {
           let zoom = jquery('#scale-me').css('zoom')
           // Get click coordinates
-          let x = event.pageX - (target.offset().left * zoom)
-          let y = event.pageY - (target.offset().top * zoom)
+          let offsetT = jquery(target).offset().top - jquery(window).scrollTop()
+          let offsetL = jquery(target).offset().left - jquery(window).scrollLeft()
+          let x = event.pageX - (offsetL * zoom)
+          let y = event.pageY - (offsetT * zoom)
           let w = (ctx.canvas.width = target.width()) * zoom
           let h = (ctx.canvas.height = target.height()) * zoom
           let alpha
@@ -56,13 +79,16 @@
 </script>
 
 <style>
+  svg path {
+    fill: yellow;
+  }
   .country {
     cursor: pointer;
-    opacity: .5;
-    filter: drop-shadow(3px 3px 0 #fff) drop-shadow(-1px -1px 0 #fff);
+    opacity: .7;
+    filter: hue-rotate(100deg) drop-shadow(2px 2px 0 #ddd) drop-shadow(-2px -2px 0 #ddd);
   }
-  .country.hover {
-    opacity: 0;
+  .country.hover, .armies:hover ~ .country {
+    opacity: .2;
   }
   .armies {
     cursor: pointer;
@@ -74,6 +100,7 @@
     padding: .1em .5em .2em;
     z-index: 1000;
     text-shadow: 0.1em 0.1em #000;
+    font-family: monospace;
     font-weight: bold;
   }
 </style>

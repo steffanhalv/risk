@@ -13,13 +13,14 @@
 <style>
   /* CSS */
   body {
-    background-image: url(~@/assets/bg.jpg);
-    background-size: 100vw 100vh;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
+    display: inline-block;
     position: absolute;
     margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(~@/assets/bg.jpg);
+    background-size: cover;
+    overflow: hidden;
   }
   #app {
     position: relative;
