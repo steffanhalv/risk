@@ -1,20 +1,35 @@
 <template>
-  <div class="country-container" style="position: absolute;" :style="{ top: top + 'px', left: left + 'px'}">
-    <div class="armies" :style="{ top: 'calc(49% + ' + topArmies + 'px)', left: 'calc(49% + ' + leftArmies + 'px)'}">
-      {{armies}}
+  <div
+    class="country-container"
+    style="position: absolute; pointer-events: none"
+    :style="{ top: country.top + 'px', left: country.left + 'px'}">
+    <div
+      @click="addArmy"
+      class="armies"
+      style="pointer-events: auto"
+      :style="{ top: 'calc(49% + ' + country.topArmies + 'px)', left: 'calc(49% + ' + country.leftArmies + 'px)'}">
+      {{country.armies}}
     </div>
-    <img :style="{ zIndex: zIndex }" :id="country" :src="image" class="country">
+    <img
+      @click="tryAddArmy"
+      :style="{
+        zIndex: zIndex,
+        filter: 'hue-rotate(' + player.hue + 'deg) drop-shadow(2px 2px 0 #ddd) drop-shadow(-2px -2px 0 #ddd)'
+      }"
+      :id="country.image"
+      :src="image"
+      class="country">
   </div>
 </template>
 
 <script>
   import jquery from 'jquery'
   export default {
-    props: ['country', 'top', 'left', 'topArmies', 'leftArmies', 'armies', 'player'],
+    props: ['country', 'player'],
     data () {
       return {
-        image: require('../assets/countries/' + this.country + '.png'),
-        zIndex: this.country.length + Math.floor((Math.random() * 100) + 1)
+        image: require('../assets/countries/' + this.country.image + '.png'),
+        zIndex: this.country.image.length + Math.floor((Math.random() * 100) + 1)
       }
     },
     mounted () {
@@ -22,32 +37,22 @@
       setTimeout(function () {
         scope.hover()
       }, 500)
-      jquery('img[src$=".svg"]').each(function () {
-        let img = jquery(this)
-        let imgURL = img.attr('src')
-        let attributes = img.prop('attributes')
-
-        jquery.get(imgURL, function (data) {
-          // Get the SVG tag, ignore the rest
-          let svg = jquery(data).find('svg')
-
-          // Remove any invalid XML tags
-          svg = svg.removeAttr('xmlns:a')
-
-          // Loop through IMG attributes and apply on SVG
-          jquery.each(attributes, function () {
-            svg.attr(this.name, this.value)
-          })
-
-          // Replace IMG with SVG
-          img.replaceWith(svg)
-        }, 'xml')
-      })
     },
     methods: {
+      tryAddArmy () {
+        if (jquery('#' + this.country.image).hasClass('hover')) {
+          this.addArmy()
+        }
+      },
+      addArmy () {
+        if (this.player.place > 0) {
+          this.player.place--
+          this.country.armies++
+        }
+      },
       hover () {
         let ctx = document.createElement('canvas').getContext('2d')
-        let target = jquery('#' + this.country)
+        let target = jquery('#' + this.country.image)
         jquery('body').bind('mousemove', function (event) {
           let zoom = jquery('#scale-me').css('zoom')
           // Get click coordinates
@@ -88,10 +93,11 @@
   .country {
     cursor: pointer;
     opacity: .7;
-    filter: hue-rotate(100deg) drop-shadow(2px 2px 0 #ddd) drop-shadow(-2px -2px 0 #ddd);
+    pointer-events: none;
   }
   .country.hover, .armies:hover ~ .country {
     opacity: .2;
+    pointer-events: auto;
   }
   .armies {
     cursor: pointer;

@@ -11,13 +11,13 @@
             <country
               v-for="country in countries"
               :key="country.name"
-              :country="country.image"
+              :country="country"
               :top="country.top"
               :left="country.left"
               :armies="country.armies"
               :topArmies="country.topArmies"
               :leftArmies="country.leftArmies"
-              :player="country.player"
+              :player="current"
             ></country>
           </div>
         </div>
@@ -32,7 +32,7 @@
 
   export default {
     components: {Country},
-    props: ['continents'],
+    props: ['current', 'continents'],
     data () {
       return {
         diff: window.outerHeight / window.outerWidth

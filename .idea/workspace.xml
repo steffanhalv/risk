@@ -2,62 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e417d8e-ac92-41e6-a79d-cb1df43bc2f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/logic/card.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/logic/continent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/logic/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/maps/oldWorldMap.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/renderer/components/LandingPage.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/renderer/components/LandingPage/SystemInformation.vue" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/logic/cllient.js" afterPath="$PROJECT_DIR$/src/logic/client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/bg.jpg" afterPath="$PROJECT_DIR$/src/renderer/assets/bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/afghanistan.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/afghanistan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/alaska.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/alaska.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/alberta.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/alberta.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/argentina.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/argentina.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/brazile.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/brazile.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/central-europe.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/central-europe.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/china.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/china.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/east-africa.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/east-africa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/east-australia.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/east-australia.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/eastern-usa.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/eastern-usa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/egypt.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/egypt.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/great-britany.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/great-britany.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/greenland.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/greenland.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/india.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/india.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/indonesia.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/indonesia.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/island.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/island.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/jakutzka.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/jakutzka.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/japan.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/japan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/kamchatka.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/kamchatka.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/kongo.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/kongo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/madagascar.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/madagascar.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/mexico.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/mexico.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/middle-east.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/middle-east.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/mongolia.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/mongolia.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/new-guinea.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/new-guinea.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/north-africa.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/north-africa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/northwest-teritory.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/northwest-teritory.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/ontario.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/ontario.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/peru.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/peru.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/quebec.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/quebec.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/scandinavia.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/scandinavia.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/siam.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/siam.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/siberia.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/siberia.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/south-africa.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/south-africa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/south-europe.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/south-europe.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/ucraine.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/ucraine.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/ural.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/ural.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/utah.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/utah.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/venezuela.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/venezuela.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/west-australia.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/west-australia.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/west-europe.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/west-europe.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/countries/western-usa.png" afterPath="$PROJECT_DIR$/src/renderer/assets/countries/western-usa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/assets/worldmap.png" afterPath="$PROJECT_DIR$/src/renderer/assets/worldmap.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logic/country.js" afterPath="$PROJECT_DIR$/src/logic/country.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logic/game.js" afterPath="$PROJECT_DIR$/src/logic/game.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logic/player.js" afterPath="$PROJECT_DIR$/src/logic/player.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logic/risk.js" afterPath="$PROJECT_DIR$/src/logic/risk.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/components/Board.vue" afterPath="$PROJECT_DIR$/src/renderer/components/Board.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/components/Country.vue" afterPath="$PROJECT_DIR$/src/renderer/components/Country.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/renderer/components/WorldMap.vue" afterPath="$PROJECT_DIR$/src/renderer/components/WorldMap.vue" />
@@ -82,109 +27,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="oldWorldMap.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/maps/oldWorldMap.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-                <marker date="1503055171325" expanded="true" signature="159:7537" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/logic/map.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Board.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/renderer/components/Board.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="3" column="49" lean-forward="false" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+            <state relative-caret-position="2496">
+              <caret line="52" column="17" lean-forward="false" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WorldMap.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WorldMap.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/renderer/components/WorldMap.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="44" column="22" lean-forward="false" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+            <state relative-caret-position="432">
+              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="e#945#976#0" expanded="true" />
+                <element signature="e#932#963#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="continent.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/logic/continent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/renderer/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="risk.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/logic/risk.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Country.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Country.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/renderer/components/Country.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="game.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/logic/game.js">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
-              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="31" />
-              <folding />
+              <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -207,6 +87,10 @@
       <find>offse</find>
       <find>zoom</find>
       <find>;</find>
+      <find>top</find>
+      <find>left</find>
+      <find>country</find>
+      <find>hover</find>
     </findStrings>
     <replaceStrings>
       <replace>jquery</replace>
@@ -226,10 +110,8 @@
         <option value="$PROJECT_DIR$/src/renderer/router/index.js" />
         <option value="$PROJECT_DIR$/src/renderer/components/Map.vue" />
         <option value="$PROJECT_DIR$/src/renderer/App.vue" />
-        <option value="$PROJECT_DIR$/src/renderer/components/Country.vue" />
         <option value="$PROJECT_DIR$/src/maps/default.js" />
         <option value="$PROJECT_DIR$/src/logic/continent.js" />
-        <option value="$PROJECT_DIR$/src/logic/player.js" />
         <option value="$PROJECT_DIR$/src/logic/client.js" />
         <option value="$PROJECT_DIR$/src/logic/country.js" />
         <option value="$PROJECT_DIR$/src/logic/map.js" />
@@ -237,8 +119,10 @@
         <option value="$PROJECT_DIR$/src/logic/game.js" />
         <option value="$PROJECT_DIR$/src/maps/oldWorldMap.js" />
         <option value="$PROJECT_DIR$/src/logic/risk.js" />
-        <option value="$PROJECT_DIR$/src/renderer/components/Board.vue" />
+        <option value="$PROJECT_DIR$/src/logic/player.js" />
         <option value="$PROJECT_DIR$/src/renderer/components/WorldMap.vue" />
+        <option value="$PROJECT_DIR$/src/renderer/components/Board.vue" />
+        <option value="$PROJECT_DIR$/src/renderer/components/Country.vue" />
       </list>
     </option>
   </component>
@@ -453,12 +337,12 @@
       <workItem from="1502638196821" duration="4002000" />
       <workItem from="1502822862751" duration="13000" />
       <workItem from="1502916564424" duration="6545000" />
-      <workItem from="1503049703156" duration="3827000" />
+      <workItem from="1503049703156" duration="8984000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70712000" />
+    <option name="totallyTimeSpent" value="75869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3232" height="1756" extended-state="6" />
@@ -513,7 +397,7 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#945#976#0" expanded="true" />
+            <element signature="e#932#963#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -533,8 +417,7 @@
         <state relative-caret-position="144">
           <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -543,7 +426,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
           <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -591,7 +477,7 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#945#976#0" expanded="true" />
+            <element signature="e#932#963#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -611,8 +497,7 @@
         <state relative-caret-position="144">
           <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -621,7 +506,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
           <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -669,7 +557,7 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#945#976#0" expanded="true" />
+            <element signature="e#932#963#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -689,8 +577,7 @@
         <state relative-caret-position="144">
           <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -699,7 +586,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
           <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -747,7 +637,7 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#945#976#0" expanded="true" />
+            <element signature="e#932#963#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -792,34 +682,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/logic/country.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/logic/player.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/logic/card.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/components/Country.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -831,14 +697,6 @@
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/logic/game.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -863,17 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/components/Board.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="3" column="49" lean-forward="false" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/logic/continent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -890,17 +737,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="1" column="39" lean-forward="false" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/country.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/components/WorldMap.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="44" column="22" lean-forward="false" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        <state relative-caret-position="432">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#945#976#0" expanded="true" />
+            <element signature="e#932#963#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/Board.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2496">
+          <caret line="52" column="17" lean-forward="false" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/Country.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
