@@ -82,6 +82,9 @@
   svg path {
     fill: yellow;
   }
+  .country.selected {
+    filter: hue-rotate(100deg) drop-shadow(4px 4px 0 red) brightness(5) drop-shadow(-4px -4px 0 red);
+  }
   .country {
     cursor: pointer;
     opacity: .7;

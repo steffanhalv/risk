@@ -1,12 +1,9 @@
 export default class Player {
-
-  constructor (name, color) {
-
+  constructor (name, hue) {
     this.name = name
-    this.color = color
-    this.country = ''
+    this.hue = hue // Color hue 0 - 360 degree
+    this.locale = ''
     this.cards = []
-
+    this.place = 0
   }
-
 }
