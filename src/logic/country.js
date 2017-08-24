@@ -1,3 +1,4 @@
+import Player from './player'
 export default class Country {
   constructor (
     name,
@@ -10,8 +11,9 @@ export default class Country {
   ) {
     this.name = name
     this.armies = 1
-    this.player = 0
+    this.player = new Player()
     this.neighbours = []
+    this.continent = ''
 
     this.image = image
 

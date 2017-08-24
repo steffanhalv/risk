@@ -9,7 +9,7 @@ export default class Game {
     this.gamestart = new Date()
     this.players = []
     this.currentPlayer = 0
-    this.round = 1
+    this.round = 0
     this.map = new OldWorldMap()
   }
 }

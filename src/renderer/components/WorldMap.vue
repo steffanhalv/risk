@@ -10,6 +10,7 @@
           <div>
             <country
               v-for="country in countries"
+              :data="data"
               :key="country.name"
               :country="country"
               :top="country.top"
@@ -17,7 +18,8 @@
               :armies="country.armies"
               :topArmies="country.topArmies"
               :leftArmies="country.leftArmies"
-              :player="current"
+              :player="country.player"
+              :current="current"
             ></country>
           </div>
         </div>
@@ -32,7 +34,7 @@
 
   export default {
     components: {Country},
-    props: ['current', 'continents'],
+    props: ['current', 'continents', 'data'],
     data () {
       return {
         diff: window.outerHeight / window.outerWidth
@@ -42,6 +44,9 @@
       countries () {
         let countries = []
         this.continents.forEach(continent => {
+          continent.countries.forEach(country => {
+            country.continent = continent.name
+          })
           countries = countries.concat(continent.countries)
         })
         return countries

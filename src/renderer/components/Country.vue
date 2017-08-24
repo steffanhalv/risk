@@ -1,14 +1,21 @@
 <template>
   <div
     class="country-container"
+    :class="{ current: current.name === player.name }"
     style="position: absolute; pointer-events: none"
     :style="{ top: country.top + 'px', left: country.left + 'px'}">
     <div
       @click="addArmy"
       class="armies"
+      :name="name"
       style="pointer-events: auto"
-      :style="{ top: 'calc(49% + ' + country.topArmies + 'px)', left: 'calc(49% + ' + country.leftArmies + 'px)'}">
+      :style="{
+        top: 'calc(49% + ' + country.topArmies + 'px)',
+        left: 'calc(49% + ' + country.leftArmies + 'px)',
+        filter: 'hue-rotate(' + (player.hue + 200) + 'deg)'
+      }">
       {{country.armies}}
+      <div class="name">{{country.name}}</div>
     </div>
     <img
       @click="tryAddArmy"
@@ -25,11 +32,12 @@
 <script>
   import jquery from 'jquery'
   export default {
-    props: ['country', 'player'],
+    props: ['country', 'player', 'current', 'data'],
     data () {
       return {
         image: require('../assets/countries/' + this.country.image + '.png'),
-        zIndex: this.country.image.length + Math.floor((Math.random() * 100) + 1)
+        zIndex: this.country.image.length + Math.floor((Math.random() * 100) + 1),
+        name: this.country.continent + ' - ' + this.country.name
       }
     },
     mounted () {
@@ -45,7 +53,7 @@
         }
       },
       addArmy () {
-        if (this.player.place > 0) {
+        if (this.player.place > 0 && this.current.name === this.player.name) {
           this.player.place--
           this.country.armies++
         }
@@ -53,9 +61,9 @@
       hover () {
         let ctx = document.createElement('canvas').getContext('2d')
         let target = jquery('#' + this.country.image)
+        let scope = this
         jquery('body').bind('mousemove', function (event) {
           let zoom = jquery('#scale-me').css('zoom')
-          // Get click coordinates
           let offsetT = jquery(target).offset().top - jquery(window).scrollTop()
           let offsetL = jquery(target).offset().left - jquery(window).scrollLeft()
           let x = event.pageX - (offsetL * zoom)
@@ -63,19 +71,20 @@
           let w = (ctx.canvas.width = target.width()) * zoom
           let h = (ctx.canvas.height = target.height()) * zoom
           let alpha
-
-          // Draw image to canvas
-          // and read Alpha channel value
           ctx.drawImage(target[0], 0, 0, w, h)
           alpha = ctx.getImageData(x, y, 1, 1).data[3] // [0]R [1]G [2]B [3]A
-
-          // If pixel is transparent,
-          // retrieve the element underneath and trigger it's click event
           if (alpha === 0) {
             target.removeClass('hover')
+            if (
+              scope.data.hover === scope.name &&
+              !scope.data.armiesHover
+            ) {
+              scope.data.hover = ''
+            }
           } else {
             jquery('.country').removeClass('hover')
             target.addClass('hover')
+            scope.data.hover = scope.name
           }
         })
       }
@@ -92,19 +101,29 @@
   }
   .country {
     cursor: pointer;
-    opacity: .7;
+    opacity: .8;
     pointer-events: none;
   }
   .country.hover, .armies:hover ~ .country {
-    opacity: .2;
+    opacity: 1;
     pointer-events: auto;
+  }
+  .current .country.hover, .current .armies:hover ~ .country {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .name {
+    display: none;
+  }
+  .country.hover .name, .armies:hover ~ .country .name {
+    display: inline-block;
   }
   .armies {
     cursor: pointer;
     color: #fff;
     font-size: 2.7em;
     position: absolute;
-    background: rgba(103, 137, 217, 0.73);
+    background: rgba(103, 137, 217, .9);
     border-radius: 10%;
     padding: .1em .5em .2em;
     z-index: 1000;

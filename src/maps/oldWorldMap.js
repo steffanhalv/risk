@@ -191,7 +191,7 @@ export default class OldWorldMap extends Map {
 
     let kamchatka =
       new Country(
-        'kamchatka',
+        'Kamchatka',
         'kamchatka',
         621,
         2425,
